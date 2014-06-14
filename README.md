@@ -6,13 +6,12 @@ A CoffeeLint rule that forbids specified keywords.
 Description
 -----------
 
-This [CoffeeLint](http://www.coffeelint.org/) forbids the usage of a specified subset of
-the following keywords:
+This [CoffeeLint](http://www.coffeelint.org/) rule forbids the usage of a specified subset of
+the following keywords: `if`, `unless`, `while`, `loop`, `until`, `true`, `yes`, `on`, `false`,
+`no`, `off`, `is`, `==`, `isnt`, `!=`, `!`, `not`, `&&`, `and`, `||`, `or`, `++`, `--`, `..`, and
+`...`
 
-    if, unless, while, loop, until, true, yes, on, false, no, off, is, ==, isnt, !=, !, not, &&, and,
-    ||, or, ++, --, .., ...
-
-By default, 'yes', 'no', 'on', and 'off' are forbidden.
+By default, `yes`, `no`, `on`, and `off` are forbidden.
 
 Installation
 ------------
