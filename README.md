@@ -9,8 +9,8 @@ Description
 This [CoffeeLint](http://www.coffeelint.org/) forbids the usage of a specified subset of
 the following keywords:
 
-  if, unless, while, loop, until, true, yes, on, false, no, off, is, ==, isnt, !=, !, not, &&, and,
-  ||, or, ++, --, .., ...
+    if, unless, while, loop, until, true, yes, on, false, no, off, is, ==, isnt, !=, !, not, &&, and,
+    ||, or, ++, --, .., ...
 
 By default, 'yes', 'no', 'on', and 'off' are forbidden.
 
