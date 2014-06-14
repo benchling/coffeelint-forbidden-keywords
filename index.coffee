@@ -25,7 +25,8 @@ module.exports = class ForbiddenKeywords
       '''
 
   tokens: [
-    'IF', 'LOOP', 'UNTIL', 'BOOL', 'UNARY', 'COMPARE', 'LOGIC', 'LOOP', '++', '--', '..', '...'
+    'IF', 'LOOP', 'UNTIL', 'BOOL', 'UNARY', 'UNARY_MATH', 'COMPARE', 'LOGIC', 'LOOP', '++', '--',
+    '..', '...'
   ]
 
   lintToken: (token, tokenApi) ->
