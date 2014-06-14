@@ -41,8 +41,8 @@ module.exports = class ForbiddenKeywords
       replacement = forbidden[keyword]
       error =
         message: if replacement?
-          "The '#{keyword}' keyword is forbidden. Use '#{replacement}' instead"
+          "The \"#{keyword}\" keyword is forbidden. Use \"#{replacement}\" instead"
         else
-          "The '#{text}' keyword is forbidden"
+          "The \"#{keyword}\" keyword is forbidden"
       return error
     return
