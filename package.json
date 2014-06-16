@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-forbidden-keywords",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A CoffeeLint rule that forbids specified keywords",
   "main": "index.js",
   "keywords": [
@@ -24,7 +24,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "homepage": "https://github.com/saifelse/coffeelint-forbidden-keywords",
+  "homepage": "https://github.com/benchling/coffeelint-forbidden-keywords",
   "peerDependencies": {
     "coffeelint": ">=1.4"
   },
