@@ -9,6 +9,7 @@ module.exports = class ForbiddenKeywords
       'on': 'true'
       'off': 'false'
       # Some other reasonable replacements:
+      # 'this': '@'
       # 'is': '=='
       # 'isnt': '!='
       # 'unless': 'if not'
@@ -19,14 +20,14 @@ module.exports = class ForbiddenKeywords
       # '--': '-=1'
     description: '''
       This rule forbids the usage of a specified subset of the following keywords:
-        if, unless, while, loop, until, true, yes, on, false, no, off,
+        this, if, unless, while, loop, until, true, yes, on, false, no, off,
         is, ==, isnt, !=, !, not, &&, and, ||, or, ++, --, .., ...
       By default, ['yes', 'no', 'on', 'off'] are forbidden.
       '''
 
   tokens: [
-    'IF', 'LOOP', 'UNTIL', 'BOOL', 'UNARY', 'UNARY_MATH', 'COMPARE', 'LOGIC', 'LOOP', '++', '--',
-    '..', '...'
+    'THIS', 'IF', 'LOOP', 'UNTIL', 'BOOL', 'UNARY', 'UNARY_MATH', 'COMPARE',
+    'LOGIC', 'LOOP', '++', '--', '..', '...'
   ]
 
   lintToken: (token, tokenApi) ->
