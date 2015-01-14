@@ -9,7 +9,6 @@ module.exports = class ForbiddenKeywords
       'on': 'true'
       'off': 'false'
       # Some other reasonable replacements:
-      # 'this': '@'
       # 'is': '=='
       # 'isnt': '!='
       # 'unless': 'if not'
