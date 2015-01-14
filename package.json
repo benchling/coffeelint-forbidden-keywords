@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-forbidden-keywords",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "A CoffeeLint rule that forbids specified keywords",
   "main": "index.js",
   "keywords": [
