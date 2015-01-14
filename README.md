@@ -7,7 +7,7 @@ Description
 -----------
 
 This [CoffeeLint](http://www.coffeelint.org/) rule forbids the usage of a specified subset of
-the following keywords: `if`, `unless`, `while`, `loop`, `until`, `true`, `yes`, `on`, `false`,
+the following keywords: `this`, `if`, `unless`, `while`, `loop`, `until`, `true`, `yes`, `on`, `false`,
 `no`, `off`, `is`, `==`, `isnt`, `!=`, `!`, `not`, `&&`, `and`, `||`, `or`, `++`, `--`, `..`, and
 `...`
 
