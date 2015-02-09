@@ -25,6 +25,10 @@
     "node": ">= 0.10.0"
   },
   "homepage": "https://github.com/benchling/coffeelint-forbidden-keywords",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benchling/coffeelint-forbidden-keywords"
+  },
   "peerDependencies": {
     "coffeelint": ">=1.4"
   },
