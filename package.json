@@ -32,7 +32,7 @@
   "peerDependencies": {
     "coffeelint": ">=1.4"
   },
-  "devDependencies": {
-    "coffee-script": "~1.7.0"
+  "dependencies": {
+    "coffee-script": "^1.7.0"
   }
 }
